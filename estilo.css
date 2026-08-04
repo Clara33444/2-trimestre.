@@ -5,6 +5,7 @@
 
 .cabeçalho{
     padding: 15px 25px;
+    display: flex;
 }
 
 .cartão{
