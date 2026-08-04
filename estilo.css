@@ -36,8 +36,11 @@ main{
 
 h1{
     color: rgb(242, 247, 247);
+    font-size: 24px;
 }
 
 footer{
     background-color: rgb(124, 180, 180);
+    padding: 15px 25px;
+    color: rgb(74, 126, 126);
 }
