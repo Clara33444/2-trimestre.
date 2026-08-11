@@ -28,6 +28,8 @@ body{
 
 main{
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .cabeçalho-link{
@@ -48,6 +50,7 @@ footer{
 .cartão-interno {
     position: relative;
     transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 .cartão:hover .cartão-interno {
