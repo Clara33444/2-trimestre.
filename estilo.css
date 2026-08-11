@@ -51,5 +51,11 @@ footer{
 
 .cartão-frente, .cartão-verso {
     position: absolute;
-    border-radius: 12px
+    border-radius: 12px;
+    box-shadow: o 6px 12px color(srgb red rgb(130, 189, 130) blue);
+    backface-visibility: hidden;
+}
+
+.cartão-verso {
+    transform: rotateY(180beg);
 }
