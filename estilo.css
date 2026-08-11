@@ -47,9 +47,14 @@ footer{
 
 .cartão-interno {
     position: relative;
+    transition: transform 0.8s;
 }
 
-.cartão-frente, .cartão-verso {
+.cartão:hover .cartão-interno {
+    transform: rotateY(180deg);
+}
+
+.cartão-frente .cartão-verso {
     position: absolute;
     border-radius: 12px;
     box-shadow: o 6px 12px color(srgb red rgb(130, 189, 130) blue);
@@ -57,5 +62,5 @@ footer{
 }
 
 .cartão-verso {
-    transform: rotateY(180beg);
+    transform: rotateY(180deg);
 }
