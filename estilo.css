@@ -44,3 +44,11 @@ footer{
     padding: 15px 25px;
     color: rgb(74, 126, 126);
 }
+
+.cartão-interno {
+    position: relative;
+}
+
+.cartão-frente, .cartão-verso {
+    position: absolute;
+}
