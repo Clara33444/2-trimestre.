@@ -68,3 +68,8 @@ footer{
 .cartão-verso {
     transform: rotateY(180beg);
 }
+
+section {
+    display: flex;
+    gap: 16px;
+}
